@@ -1,12 +1,18 @@
 #include "XoaApp.hpp"
 #include <iostream>
+using namespace std;
 
 XoaApp::XoaApp()
 {
-    std::cout << "Created App" << std::endl;
+    cout << "created app" << endl;
+}
+
+XoaApp::~XoaApp()
+{
+    cout << "destroyed app" << endl;
 }
 
 void XoaApp::run()
 {
-    std::cout << "Running App" << std::endl;
+    cout << "ran" << endl;
 }

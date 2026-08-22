@@ -1,5 +1,6 @@
-﻿#include <memory>
-#include "XoaApp.hpp"
+﻿#include "XoaApp.hpp"
+#include <memory>
+
 using namespace std;
 
 int main()

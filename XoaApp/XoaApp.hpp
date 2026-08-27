@@ -18,6 +18,7 @@ private:
 
     void update();
     void render();
+
 public:
     XoaApp();
     ~XoaApp();

@@ -1,6 +1,6 @@
 add_library(XoaApp SHARED
-        XoaApp.cpp
         XoaApp.hpp
+        XoaApp.cpp
 )
 
 target_include_directories(XoaApp PUBLIC
@@ -10,6 +10,5 @@ target_include_directories(XoaApp PUBLIC
 target_link_libraries(XoaApp PUBLIC
         raylib
         SDL3::SDL3-shared
+        XoaPresentation
 )
-
-target_compile_features(XoaApp PUBLIC cxx_std_20)

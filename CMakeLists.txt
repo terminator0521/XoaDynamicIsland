@@ -41,6 +41,8 @@ FetchContent_MakeAvailable(raylib)
 # Include sub-projects.
 add_subdirectory("Xoa")
 add_subdirectory("XoaApp")
+add_subdirectory("XoaPresentation")
+add_subdirectory("XoaUIElements")
 
 # Ensure Visual Studio marks 'Xoa' executable as the default startup app
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}

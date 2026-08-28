@@ -52,6 +52,8 @@ set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 set_target_properties(
         Xoa
         XoaApp
+        XoaPresentation
+        XoaUIElements
         SDL3-shared
         raylib
         PROPERTIES

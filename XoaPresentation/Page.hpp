@@ -1,14 +1,14 @@
 #pragma once
+#include <memory>
 #include <vector>
 #include "UIElement.hpp"
-#include <initializer_list>
 
 class Page
 {
-private:
-    std::vector<UIElement> elements;
 public:
+    std::vector<std::shared_ptr<UIElement>> elements;
     Page();
+    virtual ~Page() = default;
     void update();
     void render();
 };

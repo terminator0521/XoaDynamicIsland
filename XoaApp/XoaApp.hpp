@@ -1,4 +1,6 @@
 #pragma once
+#include "XoaPresentation.hpp"
+#include <memory>
 #include <raylib.h>
 #include <SDL3/SDL.h>
 
@@ -10,6 +12,7 @@ private:
 
     //global window properties
     int WindowX;
+    std::unique_ptr<XoaPresentation> presenter = std::make_unique<XoaPresentation>();
 
     //expanded window properties
     const int WindowY = 20;

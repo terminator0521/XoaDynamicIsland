@@ -3,6 +3,9 @@ add_library(XoaPresentation SHARED
         XoaPresentation.hpp
         Page.cpp
         Page.hpp
+
+        Pages/ClockPage.cpp
+        Pages/ClockPage.hpp
 )
 
 target_include_directories(XoaPresentation PUBLIC

@@ -4,12 +4,13 @@
 class UIElement
 {
 private:
-    Rectangle box;
     UIElement();
 public:
+    Rectangle box;
+
     virtual ~UIElement() = default;
     explicit UIElement(const Rectangle box) : box(box) {}
 
-    virtual void update();
-    virtual void render();
+    virtual void update() = 0;
+    virtual void render() = 0;
 };

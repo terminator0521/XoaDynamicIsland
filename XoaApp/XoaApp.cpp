@@ -7,6 +7,7 @@ using namespace std;
 
 XoaApp::XoaApp()
 {
+
     cout << "created app" << endl;
     SetTargetFPS(30);
     SetConfigFlags(
@@ -34,13 +35,21 @@ void XoaApp::run()
 
 void XoaApp::update()
 {
+    //presentation
+    presenter->update();
 }
 
 void XoaApp::render()
 {
     BeginDrawing();
+    //global window and app updates
     ClearBackground(BLANK);
+
+    //main floating object
     DrawRectangleRounded(Rectangle(0, 0, static_cast<float>(windowWidth), static_cast<float>(windowHeight)), 4, 6,
                          BLACK);
+
+    //presentation
+    presenter->render();
     EndDrawing();
 }

@@ -29,3 +29,4 @@ AI is only used to learn how the libraries used worked. No art or ideas were gen
 * The app uses a 24-hour clock and a Month-Day-Year date format.
 * Instead of having a close button in the app, the function has been replaced with hitting the ESC key right after clicking and focusing the app.
 * The app is currently not draggable.
+* App does not work on fullscreen or exclusive fullscreen applications

@@ -16,7 +16,7 @@ The project uses the following libraries:
 
 ## How to Run
 
-1. Download the XoaDynamicIsland zip file from the latest release (XoaDynamicIsland_v1.0.zip in release v1.0)
+1. Download the XoaDynamicIsland zip file from the latest release (XoaDynamicIsland_v1.0.zip under Release v1.0)
 2. Extract all contents
 3. run Xoa.exe
 
